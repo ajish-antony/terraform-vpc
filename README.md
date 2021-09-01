@@ -319,8 +319,10 @@ alt_txt
 ](https://i.ibb.co/QbB5dfF/install.jpg)
 
 -  For Manual Proccedure 
+
     -  For Downloading -  [Terraform](https://www.terraform.io/downloads.html) 
-    -  Installation Steps -  [Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
+
+    -  Installation Steps -  [Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
 #### User Customization 
 
