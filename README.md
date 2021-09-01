@@ -11,7 +11,7 @@ Here is a project that met the requirement which is for the creation of VPC in a
 - Internet Gateway
 - 2 Route Tables (Private and Public)
 - 1 Elastic IP
-- Nat Gateway
+- NAT Gateway
 
 ## Features
 
