@@ -312,22 +312,22 @@ output "Route_Private" {
 
 ### Terraform Installation 
 
--  Clone the git repo and proceeds with the installation of the terraform first.  Here the installation script is provided for Linux OS. Change the permission of the script - install.sh to executable and execute the bash script for the installation. The bash script will be downloading the terraform from the official terraform website. Further unzipping and copying it to the /usr/bin directory. It will list out the installed version and will remove the downloaded zip files after the installation. The output is shown below.
+- Clone the git repo and proceeds with the installation of the terraform first.  Here the installation script is provided for Linux OS. Change the permission of the script - install.sh to executable and execute the bash script for the installation. The bash script will be downloading the terraform from the official terraform website. Further unzipping and copying it to the /usr/bin directory. It will list out the installed version and will remove the downloaded zip files after the installation. The output is shown below.
 
 ![
 alt_txt
 ](https://i.ibb.co/QbB5dfF/install.jpg)
 
--  For Manual Proccedure 
+- For Manual Proccedure 
 
-    -  For Downloading -  [Terraform](https://www.terraform.io/downloads.html) 
+- For Downloading -  [Terraform](https://www.terraform.io/downloads.html) 
 
-    -  Installation Steps -  [Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
+- Installation Steps -  [Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
 #### User Customization 
 
--  Here for the user customization can be done in a single file. It means they need to update variables in a file named "terraform.tfvars". Which includes all the details for the VPC creation as mentioned earlier. 
--  
+- Here for the user customization can be done in a single file. It means they need to update variables in a file named "terraform.tfvars". Which includes all the details for the VPC creation as mentioned earlier. 
+
 ```sh
 region      = "Mention-Your_region"
 
