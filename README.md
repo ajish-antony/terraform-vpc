@@ -226,7 +226,7 @@ For configuring the private route table, Elastic IP and NAT gateway are required
 - Elastic IP For NAT GateWay
 
 ```sh
-resource "aws_eip" "ip" {
+resource "aws_eip" "eip" {
   vpc           = true
   tags          = {
       Name      = "${var.project}-eip"
