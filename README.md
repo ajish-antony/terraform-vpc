@@ -142,7 +142,7 @@ resource "aws_subnet" "public3" {
   availability_zone                 = data.aws_availability_zones.az.names[2]
   map_public_ip_on_launch           = true 
   tags                              = {
-    Name                            = "${var.project}-public2"
+    Name                            = "${var.project}-public3"
   }
 }
 ```
