@@ -1,11 +1,11 @@
-region      = "us-east-1"
+region      = "Mention-Your_region"
 
-access_key  = "AKIA5O6QTV4OO7JTUCF6"
+access_key  = "Mention-Your-Access-Key"
 
-secret_key  = "a/GdHIAZXjkM3WwN2Z/HN+1EhRot909tOMlge/bg"
+secret_key  = "Mention-Your-Secret-Key"
 
-vpc_cidr    = "172.16.0.0/16"
+vpc_cidr    = "Mention-Your-CIDR-For-VPC"
 
-project     = "new"
+project     = "Mention-Your-Project-Name"
 
 subnetcidr  = "3"
