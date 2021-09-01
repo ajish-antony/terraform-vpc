@@ -324,7 +324,7 @@ alt_txt
 
 - Installation Steps -  [Installation](https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/aws-get-started)
 
-#### User Customization 
+### User Customization 
 
 - Here for the user customization can be done in a single file. It means they need to update variables in a file named "terraform.tfvars". Which includes all the details for the VPC creation as mentioned earlier. 
 
