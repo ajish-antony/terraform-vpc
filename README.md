@@ -296,7 +296,7 @@ output "Route_Public" {
 }
 
 output "EIP" {
-  value = aws_eip.ip.id
+  value = aws_eip.eip.id
 }
 
 output "NAT" {
