@@ -312,7 +312,7 @@ output "Route_Private" {
 
 ### Terraform Installation 
 
-- Clone the git repo and proceeds with the installation of the terraform first.  Here the installation script is provided for Linux OS. Change the permission of the script - install.sh to executable and execute the bash script for the installation. The bash script will be downloading the terraform from the official terraform website. Further unzipping and copying it to the /usr/bin directory. It will list out the installed version and will remove the downloaded zip files after the installation. The output is shown below.
+- Clone the git repo and proceeds with the installation of the terraform first. Change the permission of the script - install.sh to executable and execute the bash script for the installation. The bash script will be downloading the terraform from the official terraform website. Further unzipping and copying it to the /usr/bin directory. It will list out the installed version and will remove the downloaded zip files after the installation. The output is shown below.
 
 ![
 alt_txt
