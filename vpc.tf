@@ -164,7 +164,7 @@ resource "aws_route_table" "route-public" {
         # Elastic IP
 ##########################################################
 
-resource "aws_eip" "ip" {
+resource "aws_eip" "eip" {
   vpc           = true
   tags          = {
       Name      = "${var.project}-eip"
