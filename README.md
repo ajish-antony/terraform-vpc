@@ -46,7 +46,7 @@ variable "project"    {}
 variable "subnetcidr" {}
 ```
 
-And for the above-mentioned variables, values are provided in the below-mentioned file terraform.tfvars, Here I have provided the VPC CIDR as 172.16.0.0/16 and subnetcidr as 3 for my project, for the creation of a total of 6 subnets (3 - public and private). According to the requirements, you can update the same.
+And for the above-mentioned variables, values are passed into the file terraform.tfvars, Here I have provided the VPC CIDR as 172.16.0.0/16 and subnetcidr as 3 for my project, for the creation of a total of 6 subnets (3 - public and private). According to the requirements, you can update the same.
 
 ```sh
 region      = "us-east-1"
