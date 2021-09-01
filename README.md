@@ -33,15 +33,15 @@ Here is a project that met the requirement which is for the creation of VPC in a
 Here is the variable.tf file with the list of variables for the creation of VPC
 
 ```sh
-variable "region" {}
+variable "region"     {}
 
 variable "access_key" {}
 
 variable "secret_key" {}
 
-variable "vpc_cidr" {}
+variable "vpc_cidr"   {}
 
-variable "project" {}
+variable "project"    {}
 
 variable "subnetcidr" {}
 ```
