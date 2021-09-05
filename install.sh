@@ -17,7 +17,7 @@ if [ -f /usr/bin/terraform ]; then
         echo "Already Installed"
         echo""
 else
-        wget https://releases.hashicorp.com/terraform/1.0.5/terraform_1.0.5_linux_amd64.zip
+        wget https://releases.hashicorp.com/terraform/1.0.6/terraform_1.0.6_linux_amd64.zip
         unzip terraform*.zip
         mv terraform /usr/bin/
         rm -rf terraform*.zip
